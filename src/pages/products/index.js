@@ -8,7 +8,7 @@ export function Products() {
     return (
         <div style={{display: 'flex'}}>
             <div style={{padding: '2rem', margin: '2rem', border: '1px solid black'}}>
-                Favorit product list
+                Favorite product list
             </div>
             <Routes>
                 <Route path={'/'} element={<ProductList />} />
