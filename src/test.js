@@ -1,1 +1,1 @@
-console.log('test file changed', 1)
+console.log('test file changed')
