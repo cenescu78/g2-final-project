@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { useForm } from "../../utils/use-form";
 import { API } from "../../utils/constants";
 import './add-product.scss'
+import { Button, FormControl, InputLabel, MenuItem, Select, TextField } from "@mui/material";
 
 export function AddProduct() {
     const currenUserInfo = useContext(UserInfo);
@@ -39,29 +40,23 @@ export function AddProduct() {
 
     return (
         <form className={'AddProductForm'} onSubmit={handleSubmit}>
-            <label>
-                Nume:
-                <input type="text" {...formProps.name} />
-            </label>
-            <label>
-                Slug:
-                <input type="text" {...formProps.slug} />
-            </label>
-            <label>
-                Weight:
-                <input type="number" {...formProps.weight} />
-            </label>
-            <label>
-                color:
-                <select {...formProps.color}>
-                    <option value="">Please select a color</option>
-                    <option value="red">Red</option>
-                    <option value="black">Black</option>
-                    <option value="yellow">Yellow</option>
-                </select>
-            </label>
+            <TextField label={'Name'} type="text" {...formProps.name} />
+            <TextField label={'Slug'} type="text" {...formProps.slug} />
+            <TextField label={'Weight'} type="number" {...formProps.weight} />
+            <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">Age</InputLabel>
+                <Select
+                    label="Color"
+                    {...formProps.color}
+                >
+                    <MenuItem value={'red'}>Red</MenuItem>
+                    <MenuItem value={'black'}>Black</MenuItem>
+                    <MenuItem value={'yellow'}>Yellow</MenuItem>
+                </Select>
+            </FormControl>
+
             <div>
-                <button type={'submit'}>Adauga</button>
+                <Button variant="contained" type={'submit'}>Contained</Button>
             </div>
             {message && (
                 <div>{message}</div>

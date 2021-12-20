@@ -36,6 +36,13 @@
       "weight": "2",
       "color": "red",
       "id": 3
+    },
+    {
+      "name": "",
+      "slug": "",
+      "weight": 0,
+      "color": "black",
+      "id": 4
     }
   ]
 }
