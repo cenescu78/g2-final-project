@@ -6,9 +6,9 @@ export function Menu() {
 
     return (
         <nav className={"Menu"}>
-            <NavLink to="/"> go to home</NavLink>
-            <NavLink to="/contact-us"> go to contact</NavLink>
-            <NavLink to="/produse"> Product list</NavLink>
+            <NavLink to="/"> Home</NavLink>
+            <NavLink to="/contact-us"> Contact</NavLink>
+            <NavLink to="/produse"> Products </NavLink>
         </nav>
     )
 }
