@@ -8,6 +8,7 @@ export function Menu() {
         <nav className={"Menu"}>
             <NavLink to="/"> go to home</NavLink>
             <NavLink to="/contact-us"> go to contact</NavLink>
+            <NavLink to="/produse"> Product list</NavLink>
         </nav>
     )
 }
