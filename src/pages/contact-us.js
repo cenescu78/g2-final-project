@@ -4,7 +4,7 @@ export function ContactUs() {
 
     return (
         <div>
-            this is the contact us page
+            <h1> this is the contact us page</h1>
         </div>
     )
 }

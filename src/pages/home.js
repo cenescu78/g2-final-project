@@ -4,7 +4,7 @@ export function Home() {
 
     return (
         <div>
-            this is the homepage
+            <h1>this is the homepage</h1>
         </div>
     )
 }
