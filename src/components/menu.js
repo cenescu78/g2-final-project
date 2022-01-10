@@ -9,10 +9,13 @@ export function Menu() {
     return (
         <nav className={"Menu"}>
             <NavLink to="/"> Home</NavLink>
+            <NavLink to="/feedback"> Feedback </NavLink>
+            <NavLink to="/about"> About </NavLink>
             <NavLink to="/contact-us"> Contact</NavLink>
-            <NavLink to="/produse"> Products </NavLink>
             {currenUserInfo.isAdmin && (
-                <NavLink to="/admin/add-product"> Add Product </NavLink>
+                <>
+                <NavLink to="/reviews/"> Reviews list </NavLink>
+                </>
             )}
         </nav>
     )

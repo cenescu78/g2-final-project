@@ -1,0 +1,21 @@
+h1{
+  margin-left: 2rem;
+  color: #2487ce;
+}
+ul{
+  margin-left: 10px;
+  li{
+    display: flex;
+    text-decoration-line: none;
+    height: 2rem;
+    border: 1px #2487ce solid;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    a{
+      text-decoration-line: none;
+      font-weight: bold;
+      color: #2487ce
+    }
+  }
+}

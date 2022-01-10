@@ -1,11 +1,11 @@
 import React from 'react';
+import './not-found.scss';
 
 export function NotFound() {
 
     return (
-        <div>
-            <h1>Eroare 404, Pagina nu exista</h1>
-
+        <div className='not-found'>
+            <h1>404 Page Not Found</h1>
         </div>
     )
 }

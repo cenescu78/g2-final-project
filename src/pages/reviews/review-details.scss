@@ -1,0 +1,28 @@
+h1, h4{
+  margin-left: 2rem;
+  color: #2487ce;
+}
+ul{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  li{
+    display: flex;
+    text-decoration-line: none;
+    height: 2rem;
+    width: 40vw;
+    border: 1px #2487ce solid;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    span{
+      color: #2487ce;
+      font-weight: bold;
+    }
+  }
+}
+div.buttons{
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}

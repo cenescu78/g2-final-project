@@ -1,11 +1,20 @@
-
 .Menu {
+  padding: 1rem;
   a {
     text-decoration: none;
-    color: black;
-  }
-
-  a.active {
-    color: darkblue;
+    font-weight: bold;
+    color: #2487ce;
+    //border: 0.15rem white solid;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    &.active {
+      margin: 5px;
+      background: #2487ce;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 15px;
+    }
   }
 }

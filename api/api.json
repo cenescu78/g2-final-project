@@ -4,45 +4,44 @@
       "id": 1,
       "username": "admin",
       "name": "Admin",
-      "password": "thepassword",
+      "password": "pass",
       "isAdmin": true
     },
     {
       "id": 2,
-      "username": "gigel",
-      "name": "Gigel",
-      "password": "popescu",
+      "username": "user",
+      "name": "user",
+      "password": "pass1",
       "isAdmin": false
     }
   ],
-  "products": [
+  "feedback": [
     {
-      "id": 1,
-      "name": "Cartofi",
-      "slug": "cartofi",
-      "weight": 2,
-      "color": "red"
+      "firstname": "Catalin",
+      "lastname": "Enescu",
+      "subject": "test vote radio",
+      "email": "c.enescu@gmail.com",
+      "vote": "like",
+      "message": "test vote radio -like",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Pepene verde",
-      "slug": "pepene-verde",
-      "weight": 10,
-      "color": "green"
+      "firstname": "Catalin",
+      "lastname": "Enescu",
+      "subject": "test vote radio 2",
+      "email": "c.enescu@gmail.com",
+      "vote": "suggestion",
+      "message": "text ",
+      "id": 2
     },
     {
-      "name": "ridichi",
-      "slug": "ridichi",
-      "weight": "2",
-      "color": "red",
+      "firstname": "Catalin",
+      "lastname": "Enescu",
+      "subject": "user review",
+      "email": "c.enescu@gmail.com",
+      "vote": "like",
+      "message": "test user",
       "id": 3
-    },
-    {
-      "name": "",
-      "slug": "",
-      "weight": 0,
-      "color": "black",
-      "id": 4
     }
   ]
 }
